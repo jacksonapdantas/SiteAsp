@@ -40,9 +40,9 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Utilitários <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="GerarCpf.aspx">Gerador de CPF</a></li>
-                                    <li><a href="GerarCNPJ.aspx">Gerador de CNPJ</a></li>
-                                    <li><a href="VerificarOperadora.aspx">Verificar Operadora</a></li>
+                                    <li><a href="../View/GerarCpf.aspx">Gerador de CPF</a></li>
+                                    <li><a href="../View/GerarCNPJ.aspx">Gerador de CNPJ</a></li>
+                                    <li><a href="../View/VerificarOperadora.aspx">Verificar Operadora</a></li>
                                 </ul>
                             </li>
                         </ul>

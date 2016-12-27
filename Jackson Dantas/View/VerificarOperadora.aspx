@@ -19,7 +19,6 @@
 
                 <div class="row">
                     <div class="col-lg-4">
-
                     </div>
                     <div class="col-lg-4 centro">
                         <div class="input-group">
@@ -32,6 +31,19 @@
                         <!-- /input-group -->
                     </div>
                     <!-- /.col-lg-6 -->
+
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                    </div>
+                    <div class="col-lg-4 centro">
+                        <br />
+                        <br />
+                        <br />
+                        <p id="pResposta"></p>
+                    </div>
+                </div>
             </form>
         </div>
 

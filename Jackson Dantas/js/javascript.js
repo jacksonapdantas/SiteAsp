@@ -170,5 +170,9 @@ var copiar_texto = function () {
 //Apagar, apenas para teste
 var teste = function () {
     let numCelular = document.getElementById("telefone").value;
-    alert(numCelular);
+    numCelular = numCelular.substring(5,10) +""+numCelular.substring(11,15);
+
+
+    document.getElementById("pResposta").innerText = numCelular;
+
 }
