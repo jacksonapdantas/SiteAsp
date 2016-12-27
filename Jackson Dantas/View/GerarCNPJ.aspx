@@ -1,4 +1,4 @@
-﻿<%@ Page Title="GerarCNPJ" Language="C#" MasterPageFile="~/View/MasterPage.Master" AutoEventWireup="true" CodeBehind="GerarCNPJ.aspx.cs" Inherits="Jackson_Dantas.View.GerarCNPJ" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/MasterPage.Master" AutoEventWireup="true" CodeBehind="GerarCNPJ.aspx.cs" Inherits="Jackson_Dantas.View.GerarCNPJ" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

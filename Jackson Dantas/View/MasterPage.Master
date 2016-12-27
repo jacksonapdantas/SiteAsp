@@ -42,7 +42,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="GerarCpf.aspx">Gerador de CPF</a></li>
                                     <li><a href="GerarCNPJ.aspx">Gerador de CNPJ</a></li>
-                                    <li><a href="#">Teste 3</a></li>
+                                    <li><a href="VerificarOperadora.aspx">Verificar Operadora</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -61,6 +61,8 @@
             <script src="../js/bootstrap.min.js"></script>
             <!--Javascript funcionalidades-->
             <script src="../js/javascript.js"></script>
+            <!--Js para mascarar campo -->
+            <script src="http://digitalbush.com/wp-content/uploads/2014/10/jquery.maskedinput.js"></script>
         </div>
     </form>
 </body>

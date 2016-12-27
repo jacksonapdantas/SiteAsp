@@ -94,6 +94,7 @@
     <Content Include="View\GerarCNPJ.aspx" />
     <Content Include="View\Index.aspx" />
     <Content Include="View\GerarCpf.aspx" />
+    <Content Include="View\VerificarOperadora.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +126,13 @@
     </Compile>
     <Compile Include="View\MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="View\VerificarOperadora.aspx.cs">
+      <DependentUpon>VerificarOperadora.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\VerificarOperadora.aspx.designer.cs">
+      <DependentUpon>VerificarOperadora.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

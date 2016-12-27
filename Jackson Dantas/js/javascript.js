@@ -1,5 +1,18 @@
 /**Auto = Jackson Dantas **/
 
+//Evitar conflito de plugins Jquery
+jQuery.noConflict();
+
+//Mascaras em campos
+jQuery(function ($) {
+    $("#data").mask("99/99/9999");
+    $("#telefone").mask("(99) 99999-9999");
+    $("#cpf").mask("999.999.999-99");
+    $("#cep").mask("99999-999");
+    $("#cnpj").mask("99.999.999/9999-99");
+    $("#placa").mask("aaa - 9999");
+});
+
 /**Lógica para gerar CPF**/
 
 //Função Principal
@@ -151,4 +164,11 @@ var copiar_texto = function () {
     } else {
         alert("Navegador sem suporte. Favor pare de ser preguiçoso e use CTRL + C");
     }
+}
+
+
+//Apagar, apenas para teste
+var teste = function () {
+    let numCelular = document.getElementById("telefone").value;
+    alert(numCelular);
 }

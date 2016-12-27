@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/View/MasterPage.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Jackson_Dantas.View.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/MasterPage.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Jackson_Dantas.View.WebForm1" %>
 
 
 

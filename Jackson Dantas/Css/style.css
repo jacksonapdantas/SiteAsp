@@ -46,6 +46,7 @@ body {
 
 .align_text {
     text-align: center;
+    align-items:center;
 }
 
 .textarea-size {
@@ -57,4 +58,8 @@ body {
 .input_quantidade {
     width: 30px;
     align-items: left;
+}
+
+.celularSize{
+    width: 200px;
 }
