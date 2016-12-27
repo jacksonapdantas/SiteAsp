@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Jackson_Dantas.View.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Jackson Dantas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Css do bootstrap-->
+    <link href="../Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Css/style.css" rel="stylesheet" />
+
+    <!--Container master Page-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!--Navbar-->
+            <nav class="navbar navbar-default navbar-fixed-top nav-background">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="Index.aspx">
+                            <img class="brand-size" alt="Brand" src="../img/logo.png">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav navbar-nav" id="navbar">
+                            <li class="active" role="presentation"><a href="Index.aspx">Home</a></li>
+                            <li role="presentation"><a href="#">Sobre</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Utilitários <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="GerarCpf.aspx">Gerador de CPF</a></li>
+                                    <li><a href="GerarCNPJ.aspx">Gerador de CNPJ</a></li>
+                                    <li><a href="#">Teste 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Fim da navbar-->
+
+            <!--Container master pager body-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <!-- jquery - Plugin necessário para funcionamento de alguns componets do bootstrap -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Javascript do Bootstrap -->
+            <script src="../js/bootstrap.min.js"></script>
+            <!--Javascript funcionalidades-->
+            <script src="../js/javascript.js"></script>
+        </div>
+    </form>
+</body>
+</html>
