@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/MasterPage.Master" AutoEventWireup="true" CodeBehind="VerificarOperadora.aspx.cs" Inherits="Jackson_Dantas.View.VerificarOperadora" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/View/MasterPage.Master" AutoEventWireup="true" CodeBehind="VerificarOperadora.aspx.cs" Inherits="Jackson_Dantas.View.VerificarOperadora" EnableEventValidation="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -8,14 +8,13 @@
         <div class="container">
             <h2>Verificar Operadora</h2>
         </div>
-        <div id="push"></div>
+        <div></div>
     </div>
     <!-- Fim do Jumbotron-->
 
     <!--Sessão para Verifica Operadora-->
     <section>
         <div class="container align_text">
-            <form>
 
                 <div class="row">
                     <div class="col-lg-4">
@@ -23,9 +22,9 @@
                     <div class="col-lg-4 centro">
                         <div class="input-group">
 
-                            <input id="telefone" type="text" class="form-control" placeholder="Digite o número do celular!">
+                            <input id="telefone" type="text" class="form-control" placeholder="Digite o número do celular!" name="telefone">
                             <span class="input-group-btn">
-                                <button class="btn btn-default" type="button" onclick="teste()">Pesquisar</button>
+                                <asp:Button ID="btnPesquisa" CssClass="btn btn-default" runat="server" Text="Pesquisar" OnClick="btnPesquisa_Click" />
                             </span>
                         </div>
                         <!-- /input-group -->
@@ -41,10 +40,10 @@
                         <br />
                         <br />
                         <br />
-                        <p id="pResposta"></p>
+                        <asp:Label ID="lblRespota" runat="server" Text="Label"></asp:Label>
                     </div>
                 </div>
-            </form>
+
         </div>
 
 
